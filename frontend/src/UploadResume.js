@@ -67,7 +67,7 @@ function UploadResume() {
     try{
       const token = localStorage.getItem("token");
       const res=await axios.post(
-        "http://https://ai-career-backend-pyom.onrender.com/api/parse_pdf",
+        "https://ai-career-backend-pyom.onrender.com/api/parse_pdf",
         formData,
         {
           headers:{
